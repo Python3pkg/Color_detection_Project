@@ -17,7 +17,7 @@ Dependencies : python 2.X, OpenCV
 In order to use this program, please install Python programming language 
 (vers. 2.X) and OpenCV.
 
-************************** Installation of Python 2.X version (vers. 2.7.Y recommended) *************************
+********************************** Installation of Python 2.X version (vers. 2.7.Y recommended) ********************************
 
 On Windows: 
 
@@ -55,7 +55,7 @@ On Linux:
 	- To install "pip", follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 
-******************************************** Installation of OpenCV ***********************************************
+************************************************** Installation of OpenCV ******************************************************
 
 On Windows:
 
