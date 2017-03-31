@@ -1,7 +1,9 @@
 # color_detection
 
 
+###############################################################################################
 ######################################### DESCRIPTION #########################################
+###############################################################################################
 
 Author : Flavien CHARTON
 Color detection program for RGB images
@@ -10,7 +12,9 @@ A short software that enables to find the percentage of a hue range given by
 the user in a natural image and save the resulting image thresholded with the
 given range.
 
+###############################################################################################
 ######################################## INSTALLATION #########################################
+###############################################################################################
 
 Dependencies : python 2.X, OpenCV
 
@@ -55,7 +59,7 @@ On Linux:
 	- To install "pip", follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 
-********************************** Installation of OpenCV *************************************
+******************************************** Installation of OpenCV ***********************************************
 
 On Windows:
 
@@ -67,7 +71,9 @@ On Linux:
    	- Go to the following site and follow the instructions:
 	 http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
 
+###############################################################################################
 #################################### RUNNING THE SCRIPT #######################################
+###############################################################################################
 
 On Windows:
 
