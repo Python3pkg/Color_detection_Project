@@ -52,7 +52,7 @@ On Linux:
 	- Open a command prompt and do the following to check if "pip" 
 	 is installed:
 	 command -v pip
-	- To install "pip", follow the official installation guide:
+	- If not installed, follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 
 ************************************************** Installation of OpenCV ******************************************************
