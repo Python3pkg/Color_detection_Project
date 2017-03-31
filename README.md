@@ -6,9 +6,9 @@
 Author : Flavien CHARTON
 Color detection program for RGB images
 
-A short program to find the percentage of a range color given by the user
-in an image and write the resulting image with the minimum values of the given 
-range
+A short software that enables to find the percentage of a hue range given by
+the user in a natural image and save the resulting image thresholded with the
+given range.
 
 ################################ INSTALLATION ##################################
 
