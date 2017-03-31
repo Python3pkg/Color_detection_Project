@@ -26,7 +26,7 @@ def color_detection(file):
     lowerValue = np.array([minHue, 0, 0], dtype = np.uint8)
     upperValue = np.array([maxHue, 255, 255], dtype = np.uint8)
 
-    # Threshold the HSV image to get only green colors
+    # Threshold the HSV image to get only the wanted range
     mask = cv2.inRange(HSVimage, lowerValue, upperValue)
     
     for i in range(mask.shape[0]):
