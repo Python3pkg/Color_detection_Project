@@ -27,7 +27,7 @@ On Windows:
 	- Follow the instructions from the installer
 	- During installation, check in the command prompt if "pip" is going to 
 	 be installed
-	- If not installed, follow the official installation guide:
+	- If not installed, please follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 	- After installation completed, check the PATH environment variable
 	- If not already set, add the following to your PATH (replace X):
@@ -52,19 +52,19 @@ On Linux:
 	- Open a command prompt and do the following to check if "pip" 
 	 is installed:
 	 command -v pip
-	- If not installed, follow the official installation guide:
+	- If not installed, please follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 
 ************************************************** Installation of OpenCV ******************************************************
 
 On Windows:
 
-	- Go to the following site and follow the instructions (OpenCV from prebuilt binaries):
+	- Please refer to the official site and follow the instructions (OpenCV from prebuilt binaries):
 	 http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html
 
 On Linux:
 
-   	- Go to the following site and follow the instructions:
+   	- Please refer to the official site and follow the instructions:
 	 http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
 
 #################################### RUNNING THE SCRIPT #######################################
