@@ -72,13 +72,17 @@ On Linux:
 On Windows:
 
    Open a command prompt and do the following (replace X):
+   
 	C:\Python2X\python.exe C:\<PYTHON_FILE_PATH>\color_detection.py
+	
    Or do the following (only if Python is in your PATH environment variable):
+   
 	python.exe C:\<PYTHON_FILE_PATH>\color_detection.py
 
 On Linux:
 
    Open a command prompt and do the following:
+	
 	chmod +x color_detection.py
 	
 	python color_detection.py
