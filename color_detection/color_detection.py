@@ -2,8 +2,9 @@
 """
 Created on Mon Jul 18 18:30:12 2016
 
-A short program to find the percentage of a range color given by the user
-in an image and write the resulting image with the minimum values of the range
+A short software to find the percentage of a range color given
+by the user in a natural image and save the resulting image
+with the minimum values of the given range
 
 @author: Flavien CHARTON
 """
