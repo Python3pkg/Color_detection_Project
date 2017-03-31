@@ -27,7 +27,7 @@ On Windows:
 	- Follow the instructions from the installer
 	- During installation, check in the command prompt if "pip" is going to 
 	 be installed
-	- If not, follow the official installation guide:
+	- If not installed, follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 	- After installation completed, check the PATH environment variable
 	- If not already set, add the following to your PATH (replace X):
