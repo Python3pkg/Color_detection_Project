@@ -46,7 +46,7 @@ def color_detection(file):
     
 if(__name__ == '__main__'):
     global minHue, maxHue
-    print("\nColor detection program for RGB images (dependencies : python 2.X, PIL)")
+    print("\nColor detection program for RGB images (dependencies : Python 2.X, OpenCV 2.4.X)")
     
     tries = 0
     while(True):
