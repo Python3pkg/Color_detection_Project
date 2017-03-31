@@ -1,7 +1,7 @@
 # color_detection
 
 
-############################################ DESCRIPTION ############################################
+########################################### DESCRIPTION ###########################################
 
 Author : Flavien CHARTON
 Color detection program for RGB images
@@ -10,7 +10,7 @@ A short software that enables to find the percentage of a hue range given by
 the user in a natural image and save the resulting image thresholded with the
 given range.
 
-########################################### INSTALLATION ############################################
+########################################## INSTALLATION ###########################################
 
 Dependencies : python 2.X, OpenCV
 
