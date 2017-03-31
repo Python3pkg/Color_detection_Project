@@ -2,10 +2,10 @@
 """
 Created on Mon Jul 18 18:30:12 2016
 
-A short software that enables the user to find the percentage 
-of a color range given by the user in a natural image and 
-save the resulting image with the minimum values of the 
-given range
+A short software that enables to find the percentage
+of a hue range given by the user in a natural image
+and save the resulting image thresholded with the
+given range.
 
 @author: Flavien CHARTON
 """
