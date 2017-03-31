@@ -2,6 +2,7 @@
 
 
 ################################# DESCRIPTION #################################
+
 Author : Flavien CHARTON
 Color detection program for RGB images
 
@@ -10,6 +11,7 @@ in an image and write the resulting image with the minimum values of the given
 range
 
 ################################ INSTALLATION ##################################
+
 Dependencies : python 2.X, OpenCV
 
 In order to use this program, please install Python programming language 
@@ -78,4 +80,5 @@ On Linux:
 
    Open a command prompt and do the following:
 	chmod +x color_detection.py
+	
 	python color_detection.py
