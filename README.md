@@ -46,7 +46,7 @@ On Linux:
 	 the following (replace X):
 	 apt-cache search python | egrep "^python2.[0-9]" --color
 	 sudo apt-get install python2.X
-	- For Red Hat/ RHEL / CentOS Linux, do the follong:
+	- For Red Hat/ RHEL / CentOS Linux, do the following:
 	 sudo yum install python
 	- Repeat the first step (check python version)
 	- Open a command prompt and do the following to check if "pip" 
