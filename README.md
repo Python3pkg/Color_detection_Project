@@ -38,7 +38,7 @@ On Windows:
 On Linux:
 
    The latest versions of CentOS, Fedora, Redhat Enterprise (RHEL) and Ubuntu come
-   with Python 2.7:
+   with Python 2.7.
 
 	- Open a command prompt and do the following to check which version of
 	 Python is installed:
