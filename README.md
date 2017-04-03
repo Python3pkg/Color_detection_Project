@@ -13,12 +13,12 @@ given range.
 
 ######################################## INSTALLATION #########################################
 
-Dependencies : python 2.X, OpenCV
+Dependencies : Python 2.X, OpenCV 2.Y
 
 In order to use this program, please install Python programming language 
-(vers. 2.X) and OpenCV.
+(vers. 2.X) and OpenCV (vers. 2.Y).
 
-********************************** Installation of Python 2.X version (vers. 2.7.Y recommended) ********************************
+********************************** Installation of Python 2.X version (vers. 2.7 recommended) ********************************
 
 On Windows: 
 
@@ -38,7 +38,7 @@ On Windows:
 On Linux:
 
    The latest versions of CentOS, Fedora, Redhat Enterprise (RHEL) and Ubuntu come
-   with Python 2.7.
+   with Python 2.7:
 
 	- Open a command prompt and do the following to check which version of
 	 Python is installed:
@@ -56,7 +56,7 @@ On Linux:
 	- If not installed, please follow the official installation guide:
 	 https://pip.pypa.io/en/stable/installing/
 
-************************************************** Installation of OpenCV ******************************************************
+************************************* Installation of OpenCV (vers. 2.4 recommended) *****************************************
 
 On Windows:
 
