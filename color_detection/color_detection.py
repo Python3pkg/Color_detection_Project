@@ -20,14 +20,11 @@ def color_detection(file):
     colorCounter = 0
     image = cv2.imread(file, 1)
     
-    # Convert BGR to HSV
     HSVimage = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
-    # define range of color in HSV
     lowerValue = np.array([minHue, 0, 0], dtype = np.uint8)
     upperValue = np.array([maxHue, 255, 255], dtype = np.uint8)
 
-    # Threshold the HSV image to get only the wanted range
     mask = cv2.inRange(HSVimage, lowerValue, upperValue)
     
     for i in range(mask.shape[0]):
@@ -37,7 +34,6 @@ def color_detection(file):
                 
     colorPercent = (colorCounter * 100) / (float(mask.shape[0]) * float(mask.shape[1]))
 
-    # Bitwise-AND mask and original image
     result = cv2.bitwise_and(image, image, mask = mask)
 
     cv2.imwrite(args['result'] + '/color_detection_' + filename + '.png', result)
