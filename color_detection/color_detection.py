@@ -72,14 +72,12 @@ if(__name__ == '__main__'):
     if not(os.path.exists(dirs + str(datetime.date.today()) + "_color_detection_results")):
         os.makedirs(dirs + str(datetime.date.today()) + "_color_detection_results")
         
-    #Build the argument parser and parse the arguments
     parser = argparse.ArgumentParser()
     parser.add_argument('--path', required = True, help = "Path to image files")
     parser.add_argument('--result', required = True, help = "Path to resulting files")
     args = vars(parser.parse_args(['--path', dirs, '--result', resultPath]))
     
     for file in glob.glob(args['path'] + '*'):
-        #Check file is a real file and check its extension
         if(os.path.isfile(file) and file.endswith(('.png', '.jpg', '.JPG', '.jpeg'))):
             color_detection(file)
         else:
