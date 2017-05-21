@@ -38,7 +38,7 @@ def color_detection(file):
 
     cv2.imwrite(args['result'] + '/color_detection_' + filename + '.png', result)
     
-    print("\nPercentage of pixels in Hue range " + str((minHue, maxHue)) + " for " + filename + " image: " + str(colorPercent) + " %")
+    print(("\nPercentage of pixels in Hue range " + str((minHue, maxHue)) + " for " + filename + " image: " + str(colorPercent) + " %"))
     return colorCounter
     
 if(__name__ == '__main__'):
@@ -47,7 +47,7 @@ if(__name__ == '__main__'):
     
     tries = 0
     while(True):
-        dirs = raw_input("Enter a path to the images you want to process (eg. C:/some_image_directory/): ")
+        dirs = input("Enter a path to the images you want to process (eg. C:/some_image_directory/): ")
         if(os.path.exists(dirs)):
             break
         else:
@@ -57,7 +57,7 @@ if(__name__ == '__main__'):
             sys.exit()
     tries = 0
     while(True):
-        minHue, maxHue = input("Enter a Hue range to find in images you want to process (eg : minHue, maxHue): ")
+        minHue, maxHue = eval(input("Enter a Hue range to find in images you want to process (eg : minHue, maxHue): "))
         if(type(minHue), type(maxHue) == int, int):
             print("\nPlease wait while processing...")            
             break
